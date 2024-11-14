@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #0d0d0d;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #e60000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #e60000;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('your-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e60000;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+/* About Me Section */
+.about {
+    background-color: #0d0d0d;
+    padding: 60px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e60000;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: url('checkmark.png') no-repeat left center; /* Add a checkmark icon if you want */
+    padding-left: 25px;
+}
+
+/* Work Experience Section */
+.experience {
+    padding: 60px 0;
+}
+
+.experience h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e60000;
+}
+
+.work-item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.work-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e60000;
+}
+
+.work-item p {
+    font-size: 18px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #0d0d0d;
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #e60000;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #e60000;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #cc0000;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0d0d0d;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #e60000;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
